@@ -24,5 +24,8 @@ public class SegundoDesafio {
             System.out.printf("%d\tmoeda(s)\tde\tR$\t%.2f\n", valorInteiro / moeda, moeda / 100.0);
             valorInteiro %= moeda;
         }
+
+        input.close();
     }
+
 }
